@@ -1,9 +1,14 @@
 import React from "react";
+import Simulador from "../components/Simulador";
+import "../App.css";
 
 function TelaInicial() {
   return (
     <div>
-      <h1 className="text-center">Simule seu investimento</h1>
+      <header>
+        <h1 className="title">Simulador de investimento</h1>
+      </header>
+      <Simulador />
     </div>
   );
 }
